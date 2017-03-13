@@ -1,0 +1,52 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "f00f79dc9363076c8580af81c3dda050",
+    "content-hash": "8f1789ae57488323ffb7381866c2ba41",
+    "packages": [
+        {
+            "name": "izaika/framework",
+            "version": "dev-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/izaika/framework.git",
+                "reference": "c6d29dd3586f4622d4230e6293f53ff1e639a979"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/izaika/framework/zipball/c6d29dd3586f4622d4230e6293f53ff1e639a979",
+                "reference": "c6d29dd3586f4622d4230e6293f53ff1e639a979",
+                "shasum": ""
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Zaika",
+                    "email": "izaika89@gmail.com"
+                }
+            ],
+            "description": "My own framework",
+            "support": {
+                "source": "https://github.com/izaika/framework/tree/dev",
+                "issues": "https://github.com/izaika/framework/issues"
+            },
+            "time": "2017-03-13 08:13:38"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "izaika/framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
