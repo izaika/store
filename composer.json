@@ -16,7 +16,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/izaika/store.git"
+            "url": "https://github.com/izaika/framework.git"
         }
     ]
 }
