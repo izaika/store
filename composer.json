@@ -1,0 +1,22 @@
+{
+    "name": "izaika/store",
+    "description": "Application",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Zaika",
+            "email": "izaika89@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "izaika/framework": "dev-dev"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/izaika/store.git"
+        }
+    ]
+}
