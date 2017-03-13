@@ -13,15 +13,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/izaika/framework.git",
-                "reference": "c6d29dd3586f4622d4230e6293f53ff1e639a979"
+                "reference": "f8fa5d27c2fed626668c77396b18f18d418d3ea4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/izaika/framework/zipball/c6d29dd3586f4622d4230e6293f53ff1e639a979",
-                "reference": "c6d29dd3586f4622d4230e6293f53ff1e639a979",
+                "url": "https://api.github.com/repos/izaika/framework/zipball/f8fa5d27c2fed626668c77396b18f18d418d3ea4",
+                "reference": "f8fa5d27c2fed626668c77396b18f18d418d3ea4",
                 "shasum": ""
             },
             "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Izaika\\Framework\\": "src/"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -36,7 +41,7 @@
                 "source": "https://github.com/izaika/framework/tree/dev",
                 "issues": "https://github.com/izaika/framework/issues"
             },
-            "time": "2017-03-13 08:13:38"
+            "time": "2017-03-13 09:50:01"
         }
     ],
     "packages-dev": [],
