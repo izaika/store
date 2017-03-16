@@ -15,8 +15,8 @@
     },
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/izaika/framework.git"
+            "type": "path",
+            "url": "/Users/izaika/workspace/framework"
         }
     ]
 }

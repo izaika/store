@@ -4,22 +4,17 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f00f79dc9363076c8580af81c3dda050",
-    "content-hash": "8f1789ae57488323ffb7381866c2ba41",
+    "hash": "7cc7a579e78b69217979f0f57e8a7475",
+    "content-hash": "4f22b73b27c845de7d0bedc5d87b44f2",
     "packages": [
         {
             "name": "izaika/framework",
             "version": "dev-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/izaika/framework.git",
-                "reference": "f8fa5d27c2fed626668c77396b18f18d418d3ea4"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/izaika/framework/zipball/f8fa5d27c2fed626668c77396b18f18d418d3ea4",
-                "reference": "f8fa5d27c2fed626668c77396b18f18d418d3ea4",
-                "shasum": ""
+                "type": "path",
+                "url": "/Users/izaika/workspace/framework",
+                "reference": "909d4376a26dadd3f845c9437661ace40167320c",
+                "shasum": null
             },
             "type": "library",
             "autoload": {
@@ -36,12 +31,7 @@
                     "email": "izaika89@gmail.com"
                 }
             ],
-            "description": "My own framework",
-            "support": {
-                "source": "https://github.com/izaika/framework/tree/dev",
-                "issues": "https://github.com/izaika/framework/issues"
-            },
-            "time": "2017-03-13 09:50:01"
+            "description": "My own framework"
         }
     ],
     "packages-dev": [],

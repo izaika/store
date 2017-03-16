@@ -1,7 +1,15 @@
 <?php
 
-$loader = require '../vendor/autoload.php';
+function debug($value) {
+	echo '<pre>';
+	var_dump($value);
+	echo '</pre>';
+}
 
-$app = \Izaika\Framework\Application::getInstance(['key' => 'value']);
+
+$loader = require '../vendor/autoload.php';
+$routes = require '../config/routes.php';
+
+$app = \Izaika\Framework\Application::getInstance($routes);
 
 $app->run();
