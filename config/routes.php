@@ -3,22 +3,28 @@ return [
 	'root' => [
 		'pattern' => '/',
 		'method' => 'GET',
-		'action' => 'Store\\IndexController@index'
+		'action' => 'Store\\Controllers\\IndexController@index'
 	],
 	'product_list' => [
 		'pattern' => '/products',
 		'method' => 'GET',
-		'action' => 'ProductsController@getAllProducts'
+		'action' => 'Store\\Controllers\\ProductsController@getAllProducts'
 	],
 	'single_product' => [
 		'pattern' => '/products/{id}',
 		'method' => 'GET',
 		'parameters' => ['id'],
-		'action' => 'Store\\ProductsController@getProduct'
+		'action' => 'Store\\Controllers\\ProductsController@getProduct'
 	],
 	'create_product' => [
 		'pattern' => '/products',
 		'method' => 'POST',
-		'action' => 'Store\\ProductsController@createProduct'
-	]
+		'action' => 'Store\\Controllers\\ProductsController@createProduct'
+	],
+	'delete_product' => [
+		'pattern' => '/products/{id}',
+		'method' => 'DELETE',
+		'parameters' => ['id'],
+		'action' => 'Store\\Controllers\\ProductsController@deleteProduct'
+	],
 ];

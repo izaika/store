@@ -10,6 +10,8 @@ function debug($value) {
 $loader = require '../vendor/autoload.php';
 $routes = require '../config/routes.php';
 
-$app = \Izaika\Framework\Application::getInstance($routes);
+$loader->addPsr4('Store\\', dirname(__FILE__).'/../src/');
+
+$app = Izaika\Framework\Application::getInstance($routes);
 
 $app->run();
