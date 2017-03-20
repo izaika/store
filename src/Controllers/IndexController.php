@@ -8,6 +8,8 @@ class IndexController extends Controller
 {
 	public function index()
 	{
-		echo '<h1>Welcome to our store!</h1>';
+		$body = '<h1>Welcome to our store</h1>';
+
+		$this->render('index', ['variable' => 'And this is the text from variable']);
 	}
 }
