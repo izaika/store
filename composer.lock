@@ -419,7 +419,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/izaika/workspace/framework",
-                "reference": "c250b9a67a0791f70231afc88f2c4ffc1938cf7d",
+                "reference": "3d5a88576dcd2d0e842d340747627457b8f3ad85",
                 "shasum": null
             },
             "require": {
